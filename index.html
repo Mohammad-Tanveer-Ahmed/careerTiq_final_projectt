@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AI Image Captioner</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+
+    <div id="output" class="chat-container">
+      <p class="placeholder">Upload an image to generate a caption</p>
+    </div>
+
+    <div class="input-bar">
+      <label class="upload-btn" id="uploadLabel">
+        +
+        <input type="file" id="imageInput" accept="image/*" hidden />
+      </label>
+
+      <span id="fileName" class="file-name">No file selected</span>
+
+      <button id="sendBtn">⬆</button>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
